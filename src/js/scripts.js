@@ -2,7 +2,7 @@
 	"use strict";
 
 	$(function () {
-    $('.slider').slick();
+    	$('.slider').slick();
 	});
 
 } ( this, jQuery ));

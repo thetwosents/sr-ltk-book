@@ -12,10 +12,10 @@ get_header(); ?>
 <header role="banner">
   <nav role="navigation" class="nav">
     <ul>
-      <li><a href="#">Tour Dates</a></li>
-      <li><a href="#">Buy The Book</a></li>
+      <li><a href="#tourDates">Tour Dates</a></li>
+      <li><a href="#buyTheBook">Buy The Book</a></li>
       <li><a href="#">Hashtag</a></li>
-      <li><a href="#">Download The App</a></li>
+      <li><a href="#downloadTheApp">Download The App</a></li>
     </ul>
   </nav>
 
