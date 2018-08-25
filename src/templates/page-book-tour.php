@@ -42,12 +42,10 @@ get_header(); ?>
       <div class="row">
         <div class="col-xs-12 col-md-12">
           <div class="box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Join us on our global tour!<br>
+            Meet the influencers and LIKEtoKNOW.it editors in real life, get a signed book copy and learn first-hand how these entrepreneurs started and grew their influencer businesses.</p>
+            <p>Space is limited<br>
+            <b>Purchase your ticket below!</b></p>
           </div>
         </div>
       </div>
@@ -110,22 +108,12 @@ get_header(); ?>
             <div class="slider">
               <div class="slide" style="background: url('http://placehold.it/960x400') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
                 <p class="quote">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                “Practice patience and do not take any of the road blocks so personally: Instead use those “failures” as the drive you need to push forward”
                 </p>
               </div>
               <div class="slide" style="background: url('http://placehold.it/960x400') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
                 <p class="quote">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                “Practice patience and do not take any of the road blocks so personally: Instead use those “failures” as the drive you need to push forward”
                 </p>
               </div>
             </div>

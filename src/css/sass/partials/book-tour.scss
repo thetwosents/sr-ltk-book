@@ -1,3 +1,9 @@
+html {
+  body {
+
+  }
+}
+
 #slideHeader {
   height: 500px;
 }
@@ -9,9 +15,16 @@
   .box {
     background: #f2f2f2;
     padding-top: 240px;
-    padding: 240px 60px 60px;
-    
+    padding: 240px 21% 60px;
     text-align: center;
+    p {
+      line-height: 240% !important;
+      font-weight: 600;
+      margin-bottom: 12px;
+      b {
+        color: #000;
+      }
+    }
   }
 }
 
@@ -22,11 +35,12 @@
     margin-top: -40px;
     background: transparent;
     border: 2px solid #000;
-    padding: 80px 0px 40px;
+    padding: 80px 0px 60px;
     .tour-date {
       margin-bottom: 50px;
     }
     h1 {
+      font-family: 'Didot' !important;
       margin: 0px auto 20px;
       color: #000;
       font-size: 2.5rem;
@@ -34,6 +48,13 @@
     h4 {
       margin: 0px;
       font-size: 1rem;
+    }
+  }
+  .credits {
+    max-width: 50%;
+    margin: 8px auto;
+    p {
+      font-weight: 600;
     }
   }
 }
@@ -45,6 +66,15 @@
     .slide {
       height: 400px;
       width: 100%;
+      cursor: pointer;
+      .quote {
+        max-width: 40%;
+        margin-left: 80px;
+        margin-top: 60px;
+        font-size: 2rem;
+        color: #fff;
+        line-height: 140%;
+      }
     }
   }
 }
@@ -93,4 +123,12 @@
   font-weight: bold;
   padding: 8px 20px;
   border: 2px solid #000;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  &:hover {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+  }
 }

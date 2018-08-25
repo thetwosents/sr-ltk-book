@@ -194,7 +194,8 @@ input[type="search"] {
         padding: 12px 40px;
         color: #ccc;
         font-weight: 600;
-        font-size: 1rem; }
+        font-size: 1rem;
+        font-family: 'Gotham'; }
 
 /**
  * partials/sidebar
@@ -264,8 +265,14 @@ input[type="search"] {
   #missionBox .box {
     background: #f2f2f2;
     padding-top: 240px;
-    padding: 240px 60px 60px;
+    padding: 240px 21% 60px;
     text-align: center; }
+    #missionBox .box p {
+      line-height: 240% !important;
+      font-weight: 600;
+      margin-bottom: 12px; }
+      #missionBox .box p b {
+        color: #000; }
 
 #tourDates {
   position: relative;
@@ -274,23 +281,37 @@ input[type="search"] {
     margin-top: -40px;
     background: transparent;
     border: 2px solid #000;
-    padding: 80px 0px 40px; }
+    padding: 80px 0px 60px; }
     #tourDates .box .tour-date {
       margin-bottom: 50px; }
     #tourDates .box h1 {
+      font-family: 'Didot' !important;
       margin: 0px auto 20px;
       color: #000;
       font-size: 2.5rem; }
     #tourDates .box h4 {
       margin: 0px;
       font-size: 1rem; }
+  #tourDates .credits {
+    max-width: 50%;
+    margin: 8px auto; }
+    #tourDates .credits p {
+      font-weight: 600; }
 
 #testimonialSlider .slider {
   height: 400px;
   width: 100%; }
   #testimonialSlider .slider .slide {
     height: 400px;
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
+    #testimonialSlider .slider .slide .quote {
+      max-width: 40%;
+      margin-left: 80px;
+      margin-top: 60px;
+      font-size: 2rem;
+      color: #fff;
+      line-height: 140%; }
 
 #buyTheBook .box {
   background: #f2f2f2;
@@ -322,7 +343,14 @@ input[type="search"] {
   text-transform: uppercase;
   font-weight: bold;
   padding: 8px 20px;
-  border: 2px solid #000; }
+  border: 2px solid #000;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out; }
+  .btn:hover {
+    background: #000;
+    color: #fff;
+    text-decoration: none; }
 
 html {
   font-size: 87.5% !important; }
