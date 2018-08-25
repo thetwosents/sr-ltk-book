@@ -1,0 +1,96 @@
+#slideHeader {
+  height: 500px;
+}
+
+#missionBox {
+  position: relative;
+  z-index: -1;
+  margin-top: -300px;
+  .box {
+    background: #f2f2f2;
+    padding-top: 240px;
+    padding: 240px 60px 60px;
+    
+    text-align: center;
+  }
+}
+
+#tourDates {
+  position: relative;
+  margin-bottom: 100px;
+  .box {
+    margin-top: -40px;
+    background: transparent;
+    border: 2px solid #000;
+    padding: 80px 0px 40px;
+    .tour-date {
+      margin-bottom: 50px;
+    }
+    h1 {
+      margin: 0px auto 20px;
+      color: #000;
+      font-size: 2.5rem;
+    }
+    h4 {
+      margin: 0px;
+      font-size: 1rem;
+    }
+  }
+}
+
+#testimonialSlider {
+  .slider {
+    height: 400px;
+    width: 100%;
+    .slide {
+      height: 400px;
+      width: 100%;
+    }
+  }
+}
+
+#buyTheBook {
+  .box {
+    background: #f2f2f2;
+    padding: 60px 160px;
+    img {
+      margin-top: -300px;
+    }
+  }
+}
+
+#followMyStory {
+  .box {
+    padding: 60px 160px;
+  }
+}
+
+#thumbnailStrip {
+  .thumbnail-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    .thumbnail {
+      width: 210px;
+      height: 210px;
+      display: inline-block;
+      margin-right: 18px;
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+#downloadTheApp {
+  padding: 60px 0px;
+  margin-top: 60px;
+}
+
+.btn {
+  color: #000;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: 2px solid #000;
+}
