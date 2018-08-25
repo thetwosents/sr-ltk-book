@@ -37,6 +37,24 @@
   font-style: normal;
 }
 */
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Light.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Medium.otf");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Didot";
+  src: url("fonts/Didot.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
 /**
  * partials/reset
  * ---
@@ -57,7 +75,7 @@ body {
   font-size: 140%;
   line-height: 1.5;
   color: #767676;
-  background-color: white; }
+  background-color: #fff; }
 
 img {
   max-width: 100%;
@@ -75,8 +93,8 @@ input[type="search"] {
   line-height: inherit; }
 
 ::selection {
-  background-color: #04a4cc;
-  color: white;
+  background-color: #04A4CC;
+  color: #fff;
   text-shadow: none; }
 
 /**
@@ -106,7 +124,7 @@ input[type="search"] {
  * Gallery & images
  */
 .wp-caption {
-  background: white;
+  background: #fff;
   border: thin solid #F0F0F0;
   max-width: 95%;
   padding: 5px 5px;
@@ -134,6 +152,7 @@ input[type="search"] {
 .clear:before, .clear:after {
   content: " ";
   display: table; }
+
 .clear:after {
   clear: both; }
 
@@ -200,17 +219,13 @@ input[type="search"] {
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important; }
-
   a,
   a:visited {
     text-decoration: underline; }
-
   a[href]:after {
     content: " (" attr(href) ")"; }
-
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
@@ -218,32 +233,27 @@ input[type="search"] {
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
-
   tr,
   img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
-
   h2,
   h3 {
     page-break-after: avoid; } }
+
 #slideHeader {
   height: 500px; }
 
@@ -319,22 +329,30 @@ html {
   html body {
     font-size: 87.5%; }
     html body h1 {
-      font-size: 2.4rem; }
+      font-size: 2.4rem;
+      font-family: 'Gotham' !important; }
     html body h2 {
-      font-size: 2rem; }
+      font-size: 2rem;
+      font-family: 'Gotham' !important; }
     html body h3 {
-      font-size: 1rem; }
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
     html body h4 {
       font-size: 1rem;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-family: 'Gotham' !important; }
     html body p {
-      font-size: 1rem; }
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
     html body ul li {
-      font-size: 1rem; }
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
     html body a {
-      font-size: 1rem; }
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
     html body span {
-      font-size: 1rem; }
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
     html body img {
       max-width: 100%; }
     html body .logo {
@@ -342,3 +360,5 @@ html {
       margin-top: 60px; }
     html body .container {
       max-width: 960px; }
+
+/*# sourceMappingURL=style.css.map */

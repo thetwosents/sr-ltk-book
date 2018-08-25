@@ -213,6 +213,18 @@ get_header(); ?>
       </div>
     </div>
   </section>
+
+  <footer>
+    <div class="container">
+      <div class="row middle-xs center-xs">
+        <div class="col-xs-12">
+          <div class="box">
+          <p>© 2018 rewardStyle | liketoknow.it</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>

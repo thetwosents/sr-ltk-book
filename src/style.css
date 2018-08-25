@@ -50,6 +50,24 @@
   font-style: normal;
 }
 */
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Light.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Medium.otf");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Didot";
+  src: url("fonts/Didot.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
 /**
  * partials/reset
  * ---
@@ -180,6 +198,23 @@ input[type="search"] {
  * ---
  * Menus
  */
+.nav {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px; }
+  .nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+    .nav ul li {
+      display: inline-block; }
+      .nav ul li a {
+        text-transform: uppercase;
+        padding: 12px 40px;
+        color: #ccc;
+        font-weight: 600;
+        font-size: 1rem; }
+
 /**
  * partials/sidebar
  * ---
@@ -238,3 +273,110 @@ input[type="search"] {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+#slideHeader {
+  height: 500px; }
+
+#missionBox {
+  position: relative;
+  z-index: -1;
+  margin-top: -300px; }
+  #missionBox .box {
+    background: #f2f2f2;
+    padding-top: 240px;
+    padding: 240px 60px 60px;
+    text-align: center; }
+
+#tourDates {
+  position: relative;
+  margin-bottom: 100px; }
+  #tourDates .box {
+    margin-top: -40px;
+    background: transparent;
+    border: 2px solid #000;
+    padding: 80px 0px 40px; }
+    #tourDates .box .tour-date {
+      margin-bottom: 50px; }
+    #tourDates .box h1 {
+      margin: 0px auto 20px;
+      color: #000;
+      font-size: 2.5rem; }
+    #tourDates .box h4 {
+      margin: 0px;
+      font-size: 1rem; }
+
+#testimonialSlider .slider {
+  height: 400px;
+  width: 100%; }
+  #testimonialSlider .slider .slide {
+    height: 400px;
+    width: 100%; }
+
+#buyTheBook .box {
+  background: #f2f2f2;
+  padding: 60px 160px; }
+  #buyTheBook .box img {
+    margin-top: -300px; }
+
+#followMyStory .box {
+  padding: 60px 160px; }
+
+#thumbnailStrip .thumbnail-container {
+  max-width: 1140px;
+  margin: 0 auto; }
+  #thumbnailStrip .thumbnail-container .thumbnail {
+    width: 210px;
+    height: 210px;
+    display: inline-block;
+    margin-right: 18px; }
+    #thumbnailStrip .thumbnail-container .thumbnail:last-child {
+      margin-right: 0px; }
+
+#downloadTheApp {
+  padding: 60px 0px;
+  margin-top: 60px; }
+
+.btn {
+  color: #000;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: 2px solid #000; }
+
+html {
+  font-size: 87.5% !important; }
+  html body {
+    font-size: 87.5%; }
+    html body h1 {
+      font-size: 2.4rem;
+      font-family: 'Gotham' !important; }
+    html body h2 {
+      font-size: 2rem;
+      font-family: 'Gotham' !important; }
+    html body h3 {
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
+    html body h4 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-family: 'Gotham' !important; }
+    html body p {
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
+    html body ul li {
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
+    html body a {
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
+    html body span {
+      font-size: 1rem;
+      font-family: 'Gotham' !important; }
+    html body img {
+      max-width: 100%; }
+    html body .logo {
+      text-align: center;
+      margin-top: 60px; }
+    html body .container {
+      max-width: 960px; }
