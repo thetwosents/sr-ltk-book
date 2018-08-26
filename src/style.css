@@ -465,6 +465,10 @@ html {
         display: none; }
       html body #slideHeader .mobile {
         display: block; }
+        html body #slideHeader .mobile .slider {
+          margin-bottom: 0px; }
+        html body #slideHeader .mobile .slick-dots {
+          display: none !important; }
       html body .container {
         padding: 0px 12.5%; }
       html body #missionBox {

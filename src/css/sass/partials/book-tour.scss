@@ -264,6 +264,12 @@ html {
           display: none;
         }
         .mobile {
+          .slider {
+            margin-bottom: 0px;
+          }
+          .slick-dots {
+            display: none !important;
+          }
           display: block;
         }
         // height: 360px;
