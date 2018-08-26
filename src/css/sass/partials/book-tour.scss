@@ -8,21 +8,38 @@ html {
     .menu-toggle {
       display: none;
     }
+    .slider {
+      &.desktop {
+        display: block;
+      }
+      &.mobile {
+        display: none;
+      }
+    }
+    #slideHeader {
+      .desktop {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+    }
+    
   }
 }
 
 #slideHeader {
-  height: 500px;
+  height: auto;
 }
 
 #missionBox {
   position: relative;
   z-index: -1;
-  margin-top: -300px;
+  margin-top: -360px;
   .box {
     background: #f2f2f2;
     padding-top: 240px;
-    padding: 240px 21% 60px;
+    padding: 360px 21% 60px;
     text-align: center;
     p {
       line-height: 240% !important;
@@ -138,8 +155,9 @@ html {
     margin: 0px;
     padding: 0px;
     li {
-      display: inline;
+      display: inline-block;
       margin: 0px 10px;
+      width: 40%;
       &:first-child {
         margin-left: 0px;
       }
@@ -169,6 +187,18 @@ html {
     font-size: 62.5% !important;
     body {
       font-size: 62.5% !important;
+      .slider {
+        &.desktop {
+          display: none !important;
+        }
+        &.mobile {
+          display: block !important;
+        }
+      }
+      .logo {
+        max-width: 75%;
+        margin: 30px auto;
+      }
       .menu-toggle {
         display: block;
         margin-top: 20px;
@@ -181,7 +211,13 @@ html {
         display: none;
       }
       #slideHeader {
-        height: 360px;
+        .desktop {
+          display: none;
+        }
+        .mobile {
+          display: block;
+        }
+        // height: 360px;
       }
       .container {
         padding: 0px 12.5%;
@@ -275,6 +311,7 @@ html {
           }
         }
       }
+
       #tourDates {
         .box {
           max-width: 480px;

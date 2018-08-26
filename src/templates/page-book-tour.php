@@ -20,7 +20,6 @@ get_header(); ?>
     </div>
   </div>
   <nav role="navigation" class="nav">
-
     <ul>
       <li><a href="#tourDates">Tour Dates</a></li>
       <li><a href="#buyTheBook">Buy The Book</a></li>
@@ -36,14 +35,26 @@ get_header(); ?>
 
 <main role="main" aria-label="Content">
   <section id="slideHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-12">
-          <div class="box">
-            <!-- Use rev slider here -->
-            <img src="<?php echo bloginfo('template_url'); ?>/img/book/collage.png">
+    <div class="desktop">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <div class="box">
+              <!-- Use rev slider here -->
+              <img src="<?php echo bloginfo('template_url'); ?>/img/book/collage.png">
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="mobile">
+      <div class="slider">
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_1.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_2.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_3.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_4.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_5.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_6.jpg"></div>
       </div>
     </div>
   </section>
@@ -115,7 +126,7 @@ get_header(); ?>
       <div class="row">
         <div class="col-xs-12 col-md-12">
           <div class="box">
-            <div class="slider">
+            <div class="slider desktop">
               <div class="slide">
                <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-1.jpg">
               </div>
@@ -135,6 +146,26 @@ get_header(); ?>
                <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-6.jpg">
               </div>
             </div>
+            <div class="slider mobile">
+              <div class="slide">
+               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_1.jpg">
+              </div>
+              <div class="slide">
+               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_2.jpg">
+              </div>
+              <div class="slide">
+               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_3.jpg">
+              </div>
+             <!--  <div class="slide">
+               <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-4.jpg">
+              </div> -->
+              <div class="slide">
+               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_4.jpg">
+              </div>
+              <div class="slide">
+               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_5.jpg">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -150,7 +181,7 @@ get_header(); ?>
               <p><i>LIKEtoKNOW.it: Stories from the Influencer Next Door</i> goes behind the screen with more than 100 of the world's top global influencers sharing how they started their entrepreneurial businesses and navigated their path to influencer.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a href="#" class="btn">Buy The Book</a>
+              <a href="https://www.amazon.com/gp/product/0692140069?pf_rd_p=d1f45e03-8b73-4c9a-9beb-4819111bef9a&pf_rd_r=4AKXNWG85T7DJVV653EN" target="_blank" class="btn">Buy The Book</a>
             </div>
           </div>
         </div>
@@ -208,8 +239,9 @@ get_header(); ?>
             <p>Gain inspiration and discover new styles from the influencers you love with the LIKEtoKNOW.it app.</p>
             <p>Discover. Curate. Shop.</p>
             <ul>
-              <li><img src="http://placehold.it/200x40"></li>
-              <li><img src="http://placehold.it/200x40"></li>
+              <li>
+                <a href="https://itunes.apple.com/us/app/id1154027990?_branch_match_id=550315765171533603" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/book/download-on-the-app-store.png"></a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=com.rewardstyle.liketoknowit&_branch_match_id=550315765171533603" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/book/get-it-on-google-play.png"></a></li>
             </ul>
           </div>
         </div>
