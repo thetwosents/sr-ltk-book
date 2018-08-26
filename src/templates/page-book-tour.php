@@ -6,6 +6,7 @@ Template name: Book Tour
 
 get_header(); ?>
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
 
@@ -14,7 +15,7 @@ get_header(); ?>
     <div class="row center-xs">
       <div class="col-xs-12">
         <div class="menu-toggle">
-          <img src="http://placehold.it/48x48">
+          <i class="fas fa-bars"></i>
         </div>
       </div>
     </div>
@@ -29,7 +30,7 @@ get_header(); ?>
   </nav>
 
   <div class="logo">
-    <a href="<?php echo esc_url( home_url() ); ?>"><img src="<?php echo bloginfo('template_url'); ?>/img/book/ltk-book-header.jpg" alt="The LikeToKnow.it Book Tour"></a>
+    <img src="<?php echo bloginfo('template_url'); ?>/img/book/ltk-book-header.jpg" alt="The LikeToKnow.it Book Tour">
   </div>
 </header>
 

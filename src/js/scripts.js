@@ -10,6 +10,18 @@
     		autoplaySpeed: 3000,
     		infinite: true
     	});
+
+        // $('body').click(function(){
+        //     if ($('.nav').hasClass('active')) {
+        //         $('.nav').removeClass('active');
+        //     }
+        // })
+
+        $('.menu-toggle').click(function(){
+            $('.nav').toggleClass('active');
+        });
+
+
 	});
 
 } ( this, jQuery ));

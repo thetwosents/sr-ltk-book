@@ -269,25 +269,27 @@ input[type="search"] {
   h3 {
     page-break-after: avoid; } }
 
-html body p {
-  line-height: 220%;
-  font-weight: 600;
-  margin-bottom: 48px; }
-
-html body .menu-toggle {
-  display: none; }
-
-html body .slider.desktop {
-  display: block; }
-
-html body .slider.mobile {
-  display: none; }
-
-html body #slideHeader .desktop {
-  display: block; }
-
-html body #slideHeader .mobile {
-  display: none; }
+html {
+  width: 100%;
+  overflow-x: hidden; }
+  html body {
+    width: 100%;
+    overflow-x: hidden; }
+    html body p {
+      line-height: 220%;
+      font-weight: 600;
+      margin-bottom: 48px; }
+    html body .menu-toggle {
+      display: none;
+      font-size: 24px; }
+    html body .slider.desktop {
+      display: block; }
+    html body .slider.mobile {
+      display: none; }
+    html body #slideHeader .desktop {
+      display: block; }
+    html body #slideHeader .mobile {
+      display: none; }
 
 #slideHeader {
   height: auto; }
@@ -415,15 +417,31 @@ html body #slideHeader .mobile {
         display: block !important; }
       html body .logo {
         max-width: 75%;
-        margin: 30px auto; }
+        margin: 30px auto !important; }
       html body .menu-toggle {
         display: block;
-        margin-top: 20px; }
+        margin-top: 20px;
+        position: relative;
+        z-index: 8; }
       html body .btn {
         line-height: 42px;
         display: block; }
       html body .nav {
-        display: none; }
+        display: none;
+        position: absolute;
+        z-index: 5;
+        background: rgba(242, 242, 242, 0.95);
+        max-width: 75%;
+        left: 12.5%;
+        top: 30px; }
+        html body .nav.active {
+          display: block !important; }
+        html body .nav ul li {
+          display: block;
+          margin: 40px auto; }
+          html body .nav ul li a {
+            font-size: .825rem;
+            color: #000; }
       html body #slideHeader .desktop {
         display: none; }
       html body #slideHeader .mobile {

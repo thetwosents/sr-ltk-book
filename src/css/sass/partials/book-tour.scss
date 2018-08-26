@@ -1,5 +1,9 @@
 html {
+  width: 100%;
+    overflow-x: hidden;
   body {
+    width: 100%;
+    overflow-x: hidden;
     p {
       line-height: 220%;
       font-weight: 600;
@@ -7,6 +11,7 @@ html {
     }
     .menu-toggle {
       display: none;
+      font-size: 24px;
     }
     .slider {
       &.desktop {
@@ -197,11 +202,13 @@ html {
       }
       .logo {
         max-width: 75%;
-        margin: 30px auto;
+        margin: 30px auto !important;
       }
       .menu-toggle {
         display: block;
-        margin-top: 20px;
+        margin-top:20px;
+        position: relative;
+        z-index: 8;
       }
       .btn {
         line-height: 42px;
@@ -209,6 +216,25 @@ html {
       }
       .nav {
         display: none;
+        position: absolute;
+        z-index: 5;
+        background: rgba(242,242,242,.95);
+        max-width: 75%;
+        left: 12.5%;
+        top: 30px;
+        &.active {
+          display: block !important;
+        }
+        ul {
+          li {
+            display: block;
+            margin: 40px auto;
+            a {
+              font-size: .825rem;
+              color: #000;
+            }
+          }
+        }
       }
       #slideHeader {
         .desktop {
