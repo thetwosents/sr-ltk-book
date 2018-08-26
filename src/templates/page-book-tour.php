@@ -81,41 +81,51 @@ get_header(); ?>
             <div class="tour-date">
               <h4 class="date">9.10</h4>
               <h1>NYC</h1>
-              <a href="#" class="btn">Buy Ticket</a>
+              <a href="https://ltkbooktournyc.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
             <div class="tour-date">
               <h4 class="date">9.25</h4>
               <h1>Chicago</h1>
-              <a href="#" class="btn">Buy Ticket</a>
+              <a href="https://ltkbooktourchicago.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
             <div class="tour-date">
-              <h4 class="date">9.10</h4>
-              <h1>NYC</h1>
-              <a href="#" class="btn">Buy Ticket</a>
+              <h4 class="date">9.27</h4>
+              <h1>Atlanta</h1>
+              <a href="https://ltkbooktouratlanta.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
             <div class="tour-date">
-              <h4 class="date">9.10</h4>
-              <h1>NYC</h1>
-              <a href="#" class="btn">Buy Ticket</a>
+              <h4 class="date">10.2</h4>
+              <h1>Los Angeles</h1>
+              <a href="https://ltkbooktourlosangeles.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
             <div class="tour-date">
-              <h4 class="date">9.10</h4>
-              <h1>NYC</h1>
-              <a href="#" class="btn">Buy Ticket</a>
+              <h4 class="date">10.4</h4>
+              <h1>San Francisco</h1>
+              <a href="https://ltkbooktoursanfrancisco.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
             <div class="tour-date">
-              <h4 class="date">9.10</h4>
-              <h1>NYC</h1>
-              <a href="#" class="btn">Buy Ticket</a>
+              <h4 class="date">10.9</h4>
+              <h1>Dallas</h1>
+              <a href="https://ltkbooktourdallas.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
             <div class="tour-date">
-              <h4 class="date">9.10</h4>
-              <h1>NYC</h1>
-              <a href="#" class="btn">Buy Ticket</a>
+              <h4 class="date">10.16</h4>
+              <h1>Boston</h1>
+              <a href="https://ltkbooktourboston.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
+            </div>
+            <div class="tour-date">
+              <h4 class="date">10.18</h4>
+              <h1>Washington DC</h1>
+              <a href="https://ltkbooktourdc.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
+            </div>
+            <div class="tour-date">
+              <h4 class="date">TBD</h4>
+              <h1>London</h1>
+              <a href="https://ltkbooktourlondon.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
             <div class="credits">
               <p>LIKEtoKnow.it book tour in partnership with</p>
-              <img src="http://placehold.it/100x30">
+              <img src="<?php echo bloginfo('template_url'); ?>/img/book/wework-logo.png">
             </div>
           </div>
         </div>
@@ -232,6 +242,7 @@ get_header(); ?>
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="box">
             <img src="<?php echo bloginfo('template_url'); ?>/img/book/DownloadApp_Image-26.jpg">
+            <img class="foreground" src="<?php echo bloginfo('template_url'); ?>/img/book/DownloadApp_Image-25.jpg">
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">

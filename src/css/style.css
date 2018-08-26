@@ -42,13 +42,11 @@
   src: url("fonts/Gotham-Medium.otf");
   font-weight: 600;
   font-style: normal; }
-
 @font-face {
   font-family: "Didot";
   src: url("fonts/Didot.ttf");
   font-weight: normal;
   font-style: normal; }
-
 /**
  * partials/reset
  * ---
@@ -69,7 +67,7 @@ body {
   font-size: 140%;
   line-height: 1.5;
   color: #767676;
-  background-color: #fff; }
+  background-color: white; }
 
 img {
   max-width: 100%;
@@ -87,8 +85,8 @@ input[type="search"] {
   line-height: inherit; }
 
 ::selection {
-  background-color: #04A4CC;
-  color: #fff;
+  background-color: #04a4cc;
+  color: white;
   text-shadow: none; }
 
 /**
@@ -118,7 +116,7 @@ input[type="search"] {
  * Gallery & images
  */
 .wp-caption {
-  background: #fff;
+  background: white;
   border: thin solid #F0F0F0;
   max-width: 95%;
   padding: 5px 5px;
@@ -146,7 +144,6 @@ input[type="search"] {
 .clear:before, .clear:after {
   content: " ";
   display: table; }
-
 .clear:after {
   clear: both; }
 
@@ -214,13 +211,17 @@ input[type="search"] {
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important; }
+
   a,
   a:visited {
     text-decoration: underline; }
+
   a[href]:after {
     content: " (" attr(href) ")"; }
+
   abbr[title]:after {
     content: " (" attr(title) ")"; }
+
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
@@ -228,27 +229,32 @@ input[type="search"] {
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
+
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
+
   tr,
   img {
     page-break-inside: avoid; }
+
   img {
     max-width: 100% !important; }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
+
   h2,
   h3 {
     page-break-after: avoid; } }
-
 html {
   width: 100%;
   overflow-x: hidden; }
@@ -277,11 +283,11 @@ html {
 #missionBox {
   position: relative;
   z-index: -1;
-  margin-top: -360px; }
+  margin-top: -480px; }
   #missionBox .box {
     background: #f2f2f2;
     padding-top: 240px;
-    padding: 360px 21% 60px;
+    padding: 480px 21% 60px;
     text-align: center; }
     #missionBox .box p {
       line-height: 240% !important;
@@ -310,9 +316,12 @@ html {
       font-size: 1rem; }
   #tourDates .credits {
     max-width: 50%;
-    margin: 8px auto; }
+    margin: 90px auto 8px; }
     #tourDates .credits p {
+      margin-bottom: 0px;
       font-weight: 600; }
+    #tourDates .credits img {
+      max-width: 75%; }
 
 #testimonialSlider .slider {
   width: 100%; }
@@ -370,6 +379,12 @@ html {
       width: 40%; }
       #downloadTheApp ul li:first-child {
         margin-left: 0px; }
+  #downloadTheApp .box {
+    position: relative; }
+  #downloadTheApp .foreground {
+    position: absolute;
+    bottom: 0px;
+    right: 10px; }
 
 .btn {
   color: #000;
@@ -472,7 +487,6 @@ html {
           margin: 10px; }
           html body #thumbnailStrip .thumbnail-container .thumbnail:nth-of-type(5) {
             display: none; } }
-
 @media all and (min-width: 768px) and (max-width: 1000px) {
   html body .nav ul li a {
     padding: 8px 8px; }
@@ -483,7 +497,6 @@ html {
     text-align: center; }
     html body #thumbnailStrip .thumbnail-container .thumbnail {
       width: 15%; } }
-
 html {
   font-size: 87.5% !important; }
   html body {
@@ -521,5 +534,3 @@ html {
       margin-bottom: 40px; }
     html body .container {
       max-width: 960px; }
-
-/*# sourceMappingURL=style.css.map */

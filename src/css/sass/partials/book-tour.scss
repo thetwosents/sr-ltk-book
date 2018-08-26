@@ -40,11 +40,11 @@ html {
 #missionBox {
   position: relative;
   z-index: -1;
-  margin-top: -360px;
+  margin-top: -480px;
   .box {
     background: #f2f2f2;
     padding-top: 240px;
-    padding: 360px 21% 60px;
+    padding: 480px 21% 60px;
     text-align: center;
     p {
       line-height: 240% !important;
@@ -81,9 +81,13 @@ html {
   }
   .credits {
     max-width: 50%;
-    margin: 8px auto;
+    margin: 90px auto 8px;
     p {
+      margin-bottom: 0px;
       font-weight: 600;
+    }
+    img {
+      max-width: 75%;
     }
   }
 }
@@ -167,6 +171,14 @@ html {
         margin-left: 0px;
       }
     }
+  }
+  .box {
+    position: relative;
+  }
+  .foreground {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
   }
 }
 

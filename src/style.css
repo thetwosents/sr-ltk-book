@@ -297,11 +297,11 @@ html {
 #missionBox {
   position: relative;
   z-index: -1;
-  margin-top: -360px; }
+  margin-top: -480px; }
   #missionBox .box {
     background: #f2f2f2;
     padding-top: 240px;
-    padding: 360px 21% 60px;
+    padding: 480px 21% 60px;
     text-align: center; }
     #missionBox .box p {
       line-height: 240% !important;
@@ -330,9 +330,12 @@ html {
       font-size: 1rem; }
   #tourDates .credits {
     max-width: 50%;
-    margin: 8px auto; }
+    margin: 90px auto 8px; }
     #tourDates .credits p {
+      margin-bottom: 0px;
       font-weight: 600; }
+    #tourDates .credits img {
+      max-width: 75%; }
 
 #testimonialSlider .slider {
   width: 100%; }
@@ -390,6 +393,12 @@ html {
       width: 40%; }
       #downloadTheApp ul li:first-child {
         margin-left: 0px; }
+  #downloadTheApp .box {
+    position: relative; }
+  #downloadTheApp .foreground {
+    position: absolute;
+    bottom: 0px;
+    right: 10px; }
 
 .btn {
   color: #000;
