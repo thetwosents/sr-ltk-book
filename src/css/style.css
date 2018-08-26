@@ -516,6 +516,8 @@ html {
           html body #downloadTheApp .images img.foreground {
             display: block;
             position: relative;
+            right: 0px;
+            bottom: 0px;
             margin: 0 auto 0px; }
         html body #downloadTheApp ul {
           margin-top: 60px;
