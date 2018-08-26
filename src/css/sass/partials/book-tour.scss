@@ -29,7 +29,6 @@ html {
         display: none;
       }
     }
-    
   }
 }
 
@@ -153,15 +152,27 @@ html {
 #downloadTheApp {
   padding: 60px 0px;
   margin-top: 60px;
+  color: #000 !important;
+  .desktop {
+    display: block;
+    margin-left: -60px;
+    margin-top: 15px;
+  }
+  .mobile {
+    display: none;
+  }
   h1 {
     font-family: 'Didot' !important;
+    font-size: 3rem;
   }
   p {
     max-width: 55%;
+    margin-left: 50px;
+    margin-top: 70px;
   }
   ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 0px auto 0px 50px;
     padding: 0px;
     li {
       display: inline-block;
@@ -177,7 +188,7 @@ html {
   }
   .foreground {
     position: absolute;
-    bottom: 0px;
+    bottom: -10px;
     right: 10px;
   }
 }
@@ -328,6 +339,51 @@ html {
             margin: 10px;
             &:nth-of-type(5) {
               display: none;
+            }
+          }
+        }
+      }
+      #downloadTheApp { 
+        text-align: center;
+        .container {
+          padding: 0px 20px;
+        }
+        .mobile {
+          display: block;
+          h1 {
+            font-size: 2.4rem;
+          }
+        }
+        .desktop {
+          display: none;
+        }
+        p {
+          max-width: 100%;
+          margin-top: 30px;
+          margin-bottom: 0px;
+          margin-left: 0px;
+        }
+        color: #000 !important;
+        .images {
+          img {
+            display: none;
+            &.foreground {
+              display: block;
+              position: relative;
+              margin: 0 auto 0px;
+            }
+          }
+        }
+        ul {
+          margin-top: 60px;
+          margin-left: 0px;
+          li {
+            display: block;
+            width: 100%;
+            margin: 20px auto;
+            text-align: center;
+            img {
+              max-width: 60%;
             }
           }
         }

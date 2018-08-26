@@ -42,11 +42,13 @@
   src: url("fonts/Gotham-Medium.otf");
   font-weight: 600;
   font-style: normal; }
+
 @font-face {
   font-family: "Didot";
   src: url("fonts/Didot.ttf");
   font-weight: normal;
   font-style: normal; }
+
 /**
  * partials/reset
  * ---
@@ -67,7 +69,7 @@ body {
   font-size: 140%;
   line-height: 1.5;
   color: #767676;
-  background-color: white; }
+  background-color: #fff; }
 
 img {
   max-width: 100%;
@@ -85,8 +87,8 @@ input[type="search"] {
   line-height: inherit; }
 
 ::selection {
-  background-color: #04a4cc;
-  color: white;
+  background-color: #04A4CC;
+  color: #fff;
   text-shadow: none; }
 
 /**
@@ -116,7 +118,7 @@ input[type="search"] {
  * Gallery & images
  */
 .wp-caption {
-  background: white;
+  background: #fff;
   border: thin solid #F0F0F0;
   max-width: 95%;
   padding: 5px 5px;
@@ -144,6 +146,7 @@ input[type="search"] {
 .clear:before, .clear:after {
   content: " ";
   display: table; }
+
 .clear:after {
   clear: both; }
 
@@ -211,17 +214,13 @@ input[type="search"] {
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important; }
-
   a,
   a:visited {
     text-decoration: underline; }
-
   a[href]:after {
     content: " (" attr(href) ")"; }
-
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
@@ -229,32 +228,27 @@ input[type="search"] {
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
-
   tr,
   img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
-
   h2,
   h3 {
     page-break-after: avoid; } }
+
 html {
   width: 100%;
   overflow-x: hidden; }
@@ -364,14 +358,24 @@ html {
 
 #downloadTheApp {
   padding: 60px 0px;
-  margin-top: 60px; }
+  margin-top: 60px;
+  color: #000 !important; }
+  #downloadTheApp .desktop {
+    display: block;
+    margin-left: -60px;
+    margin-top: 15px; }
+  #downloadTheApp .mobile {
+    display: none; }
   #downloadTheApp h1 {
-    font-family: 'Didot' !important; }
+    font-family: 'Didot' !important;
+    font-size: 3rem; }
   #downloadTheApp p {
-    max-width: 55%; }
+    max-width: 55%;
+    margin-left: 50px;
+    margin-top: 70px; }
   #downloadTheApp ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 0px auto 0px 50px;
     padding: 0px; }
     #downloadTheApp ul li {
       display: inline-block;
@@ -383,7 +387,7 @@ html {
     position: relative; }
   #downloadTheApp .foreground {
     position: absolute;
-    bottom: 0px;
+    bottom: -10px;
     right: 10px; }
 
 .btn {
@@ -486,7 +490,40 @@ html {
           height: auto;
           margin: 10px; }
           html body #thumbnailStrip .thumbnail-container .thumbnail:nth-of-type(5) {
-            display: none; } }
+            display: none; }
+      html body #downloadTheApp {
+        text-align: center;
+        color: #000 !important; }
+        html body #downloadTheApp .container {
+          padding: 0px 20px; }
+        html body #downloadTheApp .mobile {
+          display: block; }
+          html body #downloadTheApp .mobile h1 {
+            font-size: 2.4rem; }
+        html body #downloadTheApp .desktop {
+          display: none; }
+        html body #downloadTheApp p {
+          max-width: 100%;
+          margin-top: 30px;
+          margin-bottom: 0px;
+          margin-left: 0px; }
+        html body #downloadTheApp .images img {
+          display: none; }
+          html body #downloadTheApp .images img.foreground {
+            display: block;
+            position: relative;
+            margin: 0 auto 0px; }
+        html body #downloadTheApp ul {
+          margin-top: 60px;
+          margin-left: 0px; }
+          html body #downloadTheApp ul li {
+            display: block;
+            width: 100%;
+            margin: 20px auto;
+            text-align: center; }
+            html body #downloadTheApp ul li img {
+              max-width: 60%; } }
+
 @media all and (min-width: 768px) and (max-width: 1000px) {
   html body .nav ul li a {
     padding: 8px 8px; }
@@ -497,6 +534,7 @@ html {
     text-align: center; }
     html body #thumbnailStrip .thumbnail-container .thumbnail {
       width: 15%; } }
+
 html {
   font-size: 87.5% !important; }
   html body {
@@ -534,3 +572,5 @@ html {
       margin-bottom: 40px; }
     html body .container {
       max-width: 960px; }
+
+/*# sourceMappingURL=style.css.map */

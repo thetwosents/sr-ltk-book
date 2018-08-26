@@ -238,16 +238,21 @@ get_header(); ?>
   </section>
   <section id="downloadTheApp" style="background: url('<?php echo bloginfo('template_url'); ?>/img/book/DownloadApp_Image-27.jpg') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
     <div class="container">
+      <div class="row center-xs mobile">
+        <div class="col-xs-12 col-md-12">
+          <h1>Download the App</h1>
+        </div> 
+      </div>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="box">
+          <div class="box images">
             <img src="<?php echo bloginfo('template_url'); ?>/img/book/DownloadApp_Image-26.jpg">
             <img class="foreground" src="<?php echo bloginfo('template_url'); ?>/img/book/DownloadApp_Image-25.jpg">
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="box">
-            <h1>Download the App</h1>
+            <h1 class="desktop">Download the App</h1>
             <p>Gain inspiration and discover new styles from the influencers you love with the LIKEtoKNOW.it app.</p>
             <p>Discover. Curate. Shop.</p>
             <ul>
