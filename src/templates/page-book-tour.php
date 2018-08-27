@@ -6,6 +6,7 @@ Template name: Book Tour
 
 get_header(); ?>
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
@@ -30,7 +31,7 @@ get_header(); ?>
   </nav>
 
   <div class="logo">
-    <img src="<?php echo bloginfo('template_url'); ?>/img/book/ltk-book-header.jpg" alt="The LikeToKnow.it Book Tour">
+    <img src="<?php echo bloginfo('template_url'); ?>/img/book/LTK-book-tour-logo.png" alt="The LikeToKnow.it Book Tour">
   </div>
 </header>
 
@@ -78,52 +79,52 @@ get_header(); ?>
       <div class="row center-xs">
         <div class="col-xs-12 col-md-6">
           <div class="box">
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">9.10</h4>
               <h1>NYC</h1>
               <a href="https://ltkbooktournyc.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">9.25</h4>
               <h1>Chicago</h1>
               <a href="https://ltkbooktourchicago.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">9.27</h4>
               <h1>Atlanta</h1>
               <a href="https://ltkbooktouratlanta.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">10.2</h4>
               <h1>Los Angeles</h1>
               <a href="https://ltkbooktourlosangeles.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">10.4</h4>
               <h1>San Francisco</h1>
               <a href="https://ltkbooktoursanfrancisco.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">10.9</h4>
               <h1>Dallas</h1>
               <a href="https://ltkbooktourdallas.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">10.16</h4>
               <h1>Boston</h1>
               <a href="https://ltkbooktourboston.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">10.18</h4>
               <h1>Washington DC</h1>
               <a href="https://ltkbooktourdc.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="tour-date">
+            <div class="tour-date" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <h4 class="date">TBD</h4>
               <h1>London</h1>
               <a href="https://ltkbooktourlondon.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
-            <div class="credits">
+            <div class="credits" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <p>LIKEtoKnow.it book tour in partnership with</p>
               <img src="<?php echo bloginfo('template_url'); ?>/img/book/wework-logo.png">
             </div>
@@ -147,9 +148,6 @@ get_header(); ?>
               <div class="slide">
                <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-3.jpg">
               </div>
-             <!--  <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-4.jpg">
-              </div> -->
               <div class="slide">
                <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-5.jpg">
               </div>
@@ -167,9 +165,6 @@ get_header(); ?>
               <div class="slide">
                <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_3.jpg">
               </div>
-             <!--  <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-4.jpg">
-              </div> -->
               <div class="slide">
                <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_4.jpg">
               </div>
@@ -188,7 +183,7 @@ get_header(); ?>
         <div class="col-xs-12 col-md-12">
           <div class="box">
             <div class="box-contain">
-              <img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Open.jpg">
+              <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo bloginfo('template_url'); ?>/img/book/LTK book 1.png">
               <p><i>LIKEtoKNOW.it: Stories from the Influencer Next Door</i> goes behind the screen with more than 100 of the world's top global influencers sharing how they started their entrepreneurial businesses and navigated their path to influencer.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -204,20 +199,20 @@ get_header(); ?>
       <div class="row center-xs">
         <div class="col-xs-12 col-md-12">
           <div class="box">
-            <img src="<?php echo bloginfo('template_url'); ?>/img/book/FollowMyStory.jpg">
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo bloginfo('template_url'); ?>/img/book/FollowMyStory.jpg">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#" class="btn">Get The Templates</a>
+            <a href="#" class="btn" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Get The Templates</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="thumbnailStrip">
+  <section id="thumbnailStrip" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
     <div class="thumbnail-container">
       <div class="thumbnail">
         <img src="<?php echo bloginfo('template_url'); ?>/img/book/hashtag-1_hashtag-1.jpg">
@@ -255,7 +250,7 @@ get_header(); ?>
             <h1 class="desktop">Download the App</h1>
             <p>Gain inspiration and discover new styles from the influencers you love with the LIKEtoKNOW.it app.</p>
             <p>Discover. Curate. Shop.</p>
-            <ul>
+            <ul data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <li>
                 <a href="https://itunes.apple.com/us/app/id1154027990?_branch_match_id=550315765171533603" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/book/download-on-the-app-store.png"></a></li>
               <li><a href="https://play.google.com/store/apps/details?id=com.rewardstyle.liketoknowit&_branch_match_id=550315765171533603" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/book/get-it-on-google-play.png"></a></li>
@@ -265,7 +260,6 @@ get_header(); ?>
       </div>
     </div>
   </section>
-
   <footer>
     <div class="container">
       <div class="row middle-xs center-xs">
@@ -280,5 +274,7 @@ get_header(); ?>
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 <?php get_footer(); ?>

@@ -69,6 +69,14 @@ html {
       text-align: center;
       margin-top: 60px;
       margin-bottom: 40px;
+      img {
+        max-width: 480px;
+      }
+      @media all and (max-width: 767px) {
+        img {
+          max-width: 100%;
+        }
+      }
     }
     .container {
       max-width: 960px;

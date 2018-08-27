@@ -11,6 +11,15 @@
     		infinite: true
     	});
 
+        AOS.init({
+          duration: 1200,
+          delay: 0,
+          once: false,
+          mirror: true,
+          easing: 'ease-out-quad',
+          offset: 120
+        });
+
         // $('body').click(function(){
         //     if ($('.nav').hasClass('active')) {
         //         $('.nav').removeClass('active');
