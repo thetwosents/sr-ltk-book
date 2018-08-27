@@ -52,9 +52,10 @@
 */
 @font-face {
   font-family: "Gotham";
-  src: url("fonts/Gotham-Light.otf");
+  src: url("fonts/GothamSSm-Book.otf");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  font-weight: 500; }
 
 @font-face {
   font-family: "Gotham";
@@ -317,7 +318,7 @@ html {
     text-align: center; }
     #missionBox .box p {
       line-height: 240% !important;
-      font-weight: 600;
+      font-weight: 500;
       margin-bottom: 60px; }
       #missionBox .box p b {
         color: #000; }
@@ -345,9 +346,11 @@ html {
     margin: 90px auto 8px; }
     #tourDates .credits p {
       margin-bottom: 0px;
-      font-weight: 600; }
+      font-weight: 600;
+      line-height: 150%; }
     #tourDates .credits img {
-      max-width: 75%; }
+      margin-top: 0px;
+      max-width: 60%; }
 
 #testimonialSlider .slider {
   width: 100%; }

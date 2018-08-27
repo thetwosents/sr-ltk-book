@@ -50,7 +50,7 @@ html {
     text-align: center;
     p {
       line-height: 240% !important;
-      font-weight: 600;
+      font-weight: 500;
       margin-bottom: 60px;
       b {
         color: #000;
@@ -87,9 +87,11 @@ html {
     p {
       margin-bottom: 0px;
       font-weight: 600;
+      line-height: 150%;
     }
     img {
-      max-width: 75%;
+      margin-top: 0px;
+      max-width: 60%;
     }
   }
 }
