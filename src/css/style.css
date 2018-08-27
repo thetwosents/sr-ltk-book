@@ -405,7 +405,8 @@ html {
   #downloadTheApp .foreground {
     position: absolute;
     bottom: -10px;
-    right: 10px; }
+    right: 10px;
+    max-width: 200px; }
 
 .btn {
   color: #000;

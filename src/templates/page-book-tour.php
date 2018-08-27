@@ -235,7 +235,7 @@ get_header(); ?>
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="box images">
             <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/DownloadApp_Image-26.jpg">
-            <img class="foreground" src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/DownloadApp_Image-25.jpg">
+            <img class="foreground" src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTK_screenshot.png">
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
