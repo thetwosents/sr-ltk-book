@@ -300,8 +300,6 @@ html {
       display: none; }
     html body #slideHeader .desktop {
       display: block; }
-      html body #slideHeader .desktop img {
-        width: 120%; }
     html body #slideHeader .mobile {
       display: none; }
 
