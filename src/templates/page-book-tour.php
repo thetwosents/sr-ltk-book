@@ -198,7 +198,7 @@ get_header(); ?>
         <div class="col-xs-12 col-md-12">
           <div class="box">
             <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/FollowMyStory.jpg">
-            <p>Join us in celebrating your own unique story of how you got your start, the people who shaped you the most, your biggest milestones and more with #FollowMyStory,a shareable social series that helps audiences find, connect with, and follow you.</p>
+            <p>Join us in celebrating your own unique story of how you got your start, the people who shaped you the most, your biggest milestones and more with #FollowMyStory, a shareable social series that helps audiences find, connect with, and follow you.</p>
             <a href="#" class="btn" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Get The Templates</a>
           </div>
         </div>
