@@ -31,7 +31,7 @@ get_header(); ?>
   </nav>
 
   <div class="logo">
-    <img src="<?php echo bloginfo('template_url'); ?>/img/book/LTK-book-tour-logo.png" alt="The LikeToKnow.it Book Tour">
+    <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/ltk-book-header.jpg" alt="The LikeToKnow.it Book Tour">
   </div>
 </header>
 
@@ -43,7 +43,7 @@ get_header(); ?>
           <div class="col-xs-12 col-md-12">
             <div class="box">
               <!-- Use rev slider here -->
-              <img src="<?php echo bloginfo('template_url'); ?>/img/book/LTK-Book-Header.png">
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTK-Book-Header.png">
             </div>
           </div>
         </div>
@@ -51,12 +51,12 @@ get_header(); ?>
     </div>
     <div class="mobile">
       <div class="slider">
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-1.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-2.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-3.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-4.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-5.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-6.jpg"></div>
+        <div><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTKBook_Tour_LandingPage_mobile-header-1.jpg"></div>
+        <div><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTKBook_Tour_LandingPage_mobile-header-2.jpg"></div>
+        <div><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTKBook_Tour_LandingPage_mobile-header-3.jpg"></div>
+        <div><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTKBook_Tour_LandingPage_mobile-header-4.jpg"></div>
+        <div><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTKBook_Tour_LandingPage_mobile-header-5.jpg"></div>
+        <div><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTKBook_Tour_LandingPage_mobile-header-6.jpg"></div>
       </div>
     </div>
   </section>
@@ -126,7 +126,7 @@ get_header(); ?>
             </div>
             <div class="credits" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <p>LIKEtoKnow.it book tour in partnership with</p>
-              <img src="<?php echo bloginfo('template_url'); ?>/img/book/wework-logo.png">
+              <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/wework-logo.png">
             </div>
           </div>
         </div>
@@ -140,36 +140,36 @@ get_header(); ?>
           <div class="box">
             <div class="slider desktop">
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-1.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/desktop_header_1_desktop-quote-1.jpg">
               </div>
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-2.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/desktop_header_1_desktop-quote-2.jpg">
               </div>
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-3.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/desktop_header_1_desktop-quote-3.jpg">
               </div>
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-5.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/desktop_header_1_desktop-quote-5.jpg">
               </div>
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/desktop_header_1_desktop-quote-6.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/desktop_header_1_desktop-quote-6.jpg">
               </div>
             </div>
             <div class="slider mobile">
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_1.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/Mobile_Quote_1.jpg">
               </div>
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_2.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/Mobile_Quote_2.jpg">
               </div>
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_3.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/Mobile_Quote_3.jpg">
               </div>
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_4.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/Mobile_Quote_4.jpg">
               </div>
               <div class="slide">
-               <img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Quote_5.jpg">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/Mobile_Quote_5.jpg">
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@ get_header(); ?>
         <div class="col-xs-12 col-md-12">
           <div class="box">
             <div class="box-contain">
-              <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo bloginfo('template_url'); ?>/img/book/LTK book 1.png">
+              <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/LTK-book-1.png">
               <p><i>LIKEtoKNOW.it: Stories from the Influencer Next Door</i> goes behind the screen with more than 100 of the world's top global influencers sharing how they started their entrepreneurial businesses and navigated their path to influencer.</p><p>Curated by the Editors of LIKEtoKNOW.it, the book has something for everyone—the entrepreneur, the fashionista, the foodie, the stay-at-home mom, the beauty buff, the interior design guru, and so much more. </p>
               <a href="https://www.amazon.com/gp/product/0692140069?pf_rd_p=d1f45e03-8b73-4c9a-9beb-4819111bef9a&pf_rd_r=4AKXNWG85T7DJVV653EN" target="_blank" class="btn">Buy The Book</a>
             </div>
@@ -197,7 +197,7 @@ get_header(); ?>
       <div class="row center-xs">
         <div class="col-xs-12 col-md-12">
           <div class="box">
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo bloginfo('template_url'); ?>/img/book/FollowMyStory.jpg">
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/FollowMyStory.jpg">
             <p>Join us in celebrating your own unique story of how you got your start, the people who shaped you the most, your biggest milestones and more with #FollowMyStory,a shareable social series that helps audiences find, connect with, and follow you.</p>
             <a href="#" class="btn" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Get The Templates</a>
           </div>
@@ -208,23 +208,23 @@ get_header(); ?>
   <section id="thumbnailStrip" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
     <div class="thumbnail-container">
       <div class="thumbnail">
-        <img src="<?php echo bloginfo('template_url'); ?>/img/book/hashtag-1_hashtag-1.jpg">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/hashtag-1_hashtag-1.jpg">
       </div>
       <div class="thumbnail">
-        <img src="<?php echo bloginfo('template_url'); ?>/img/book/hashtag-2_hashtag-2.jpg">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/hashtag-2_hashtag-2.jpg">
       </div>
       <div class="thumbnail">
-        <img src="<?php echo bloginfo('template_url'); ?>/img/book/hashtag-3_hashtag-3.jpg">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/hashtag-3_hashtag-3.jpg">
       </div>
       <div class="thumbnail">
-        <img src="<?php echo bloginfo('template_url'); ?>/img/book/hashtag-4_hashtag-4.jpg">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/hashtag-4_hashtag-4.jpg">
       </div>
       <div class="thumbnail">
-        <img src="<?php echo bloginfo('template_url'); ?>/img/book/hashtag-5_hashtag-5.jpg">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/hashtag-5_hashtag-5.jpg">
       </div>
     </div>
   </section>
-  <section id="downloadTheApp" style="background: url('<?php echo bloginfo('template_url'); ?>/img/book/DownloadApp_Image-27.jpg') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+  <section id="downloadTheApp" style="background: url('<?php echo site_url(); ?>/wp-content/uploads/2018/08/DownloadApp_Image-27.jpg') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
     <div class="container">
       <div class="row center-xs mobile">
         <div class="col-xs-12 col-md-12">
@@ -234,8 +234,8 @@ get_header(); ?>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="box images">
-            <img src="<?php echo bloginfo('template_url'); ?>/img/book/DownloadApp_Image-26.jpg">
-            <img class="foreground" src="<?php echo bloginfo('template_url'); ?>/img/book/DownloadApp_Image-25.jpg">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/DownloadApp_Image-26.jpg">
+            <img class="foreground" src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/DownloadApp_Image-25.jpg">
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
@@ -245,8 +245,8 @@ get_header(); ?>
             <p>Discover. Curate. Shop.</p>
             <ul data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <li>
-                <a href="https://itunes.apple.com/us/app/id1154027990?_branch_match_id=550315765171533603" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/book/download-on-the-app-store.png"></a></li>
-              <li><a href="https://play.google.com/store/apps/details?id=com.rewardstyle.liketoknowit&_branch_match_id=550315765171533603" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/book/get-it-on-google-play.png"></a></li>
+                <a href="https://itunes.apple.com/us/app/id1154027990?_branch_match_id=550315765171533603" target="_blank"><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/download-on-the-app-store.png"></a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=com.rewardstyle.liketoknowit&_branch_match_id=550315765171533603" target="_blank"><img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/get-it-on-google-play.png"></a></li>
             </ul>
           </div>
         </div>
