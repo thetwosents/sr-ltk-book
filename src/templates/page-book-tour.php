@@ -125,7 +125,7 @@ get_header(); ?>
               <a href="https://ltkbooktourlondon.splashthat.com/" class="btn" target="_blank">Buy Ticket</a>
             </div>
             <div class="credits" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <p>LIKEtoKnow.it book tour<br>in partnership with</p>
+              <p>LIKEtoKNOW.it book tour<br>In partnership with</p>
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2018/08/wework-logo.png">
             </div>
           </div>
