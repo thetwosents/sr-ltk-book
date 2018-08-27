@@ -24,6 +24,9 @@ html {
     #slideHeader {
       .desktop {
         display: block;
+        img {
+          width: 120%;
+        }
       }
       .mobile {
         display: none;

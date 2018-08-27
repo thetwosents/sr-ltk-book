@@ -39,6 +39,12 @@
 */
 @font-face {
   font-family: "Gotham";
+  src: url("fonts/Gotham-Light.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham";
   src: url("fonts/Gotham-Medium.otf");
   font-weight: 600;
   font-style: normal; }
@@ -187,9 +193,15 @@ input[type="search"] {
         text-transform: uppercase;
         padding: 12px 40px;
         color: #ccc;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 1rem;
-        font-family: 'Gotham'; }
+        font-family: 'Gotham';
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out; }
+        .nav ul li a:hover {
+          text-decoration: none;
+          color: #000; }
 
 /**
  * partials/sidebar
@@ -268,6 +280,8 @@ html {
       display: none; }
     html body #slideHeader .desktop {
       display: block; }
+      html body #slideHeader .desktop img {
+        width: 120%; }
     html body #slideHeader .mobile {
       display: none; }
 
@@ -560,6 +574,8 @@ html {
       font-family: 'Gotham' !important; }
     html body p {
       font-size: 1rem;
+      font-weight: 400;
+      color: #000;
       font-family: 'Gotham' !important; }
     html body ul li {
       font-size: 1rem;

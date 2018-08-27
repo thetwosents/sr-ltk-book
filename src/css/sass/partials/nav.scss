@@ -19,9 +19,16 @@
         text-transform: uppercase;
         padding: 12px 40px;
         color: #ccc;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 1rem;
         font-family: 'Gotham';
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        &:hover {
+          text-decoration: none;
+          color: #000;
+        }
       }
     }
   }

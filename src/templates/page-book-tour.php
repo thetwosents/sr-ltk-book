@@ -43,7 +43,7 @@ get_header(); ?>
           <div class="col-xs-12 col-md-12">
             <div class="box">
               <!-- Use rev slider here -->
-              <img src="<?php echo bloginfo('template_url'); ?>/img/book/collage.png">
+              <img src="<?php echo bloginfo('template_url'); ?>/img/book/LTK-Book-Header.png">
             </div>
           </div>
         </div>
@@ -184,9 +184,7 @@ get_header(); ?>
           <div class="box">
             <div class="box-contain">
               <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo bloginfo('template_url'); ?>/img/book/LTK book 1.png">
-              <p><i>LIKEtoKNOW.it: Stories from the Influencer Next Door</i> goes behind the screen with more than 100 of the world's top global influencers sharing how they started their entrepreneurial businesses and navigated their path to influencer.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p><i>LIKEtoKNOW.it: Stories from the Influencer Next Door</i> goes behind the screen with more than 100 of the world's top global influencers sharing how they started their entrepreneurial businesses and navigated their path to influencer.</p><p>Curated by the Editors of LIKEtoKNOW.it, the book has something for everyone—the entrepreneur, the fashionista, the foodie, the stay-at-home mom, the beauty buff, the interior design guru, and so much more. </p>
               <a href="https://www.amazon.com/gp/product/0692140069?pf_rd_p=d1f45e03-8b73-4c9a-9beb-4819111bef9a&pf_rd_r=4AKXNWG85T7DJVV653EN" target="_blank" class="btn">Buy The Book</a>
             </div>
           </div>
@@ -200,12 +198,7 @@ get_header(); ?>
         <div class="col-xs-12 col-md-12">
           <div class="box">
             <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="<?php echo bloginfo('template_url'); ?>/img/book/FollowMyStory.jpg">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Join us in celebrating your own unique story of how you got your start, the people who shaped you the most, your biggest milestones and more with #FollowMyStory,a shareable social series that helps audiences find, connect with, and follow you.</p>
             <a href="#" class="btn" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Get The Templates</a>
           </div>
         </div>
