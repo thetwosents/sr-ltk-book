@@ -51,12 +51,12 @@ get_header(); ?>
     </div>
     <div class="mobile">
       <div class="slider">
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_1.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_2.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_3.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_4.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_5.jpg"></div>
-        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/Mobile_Header_6.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-1.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-2.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-3.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-4.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-5.jpg"></div>
+        <div><img src="<?php echo bloginfo('template_url'); ?>/img/book/LTKBook_Tour_LandingPage_mobile-header-6.jpg"></div>
       </div>
     </div>
   </section>
